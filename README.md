@@ -6,4 +6,4 @@
 * jsonwebtoken
 * cors
 * dotenv
-* mongoose: Bu proje, Docker üzerinde çalışan MongoDB veritabanı ile yapılandırılmıştır.
+* mongoose: This project is configured with a MongoDB database running on Docker.
