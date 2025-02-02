@@ -9,7 +9,7 @@ export const register = async (req, res) => {
 
     if (user) {
       return res.status(409).json({ message: "Bu email kullanılmaktadır!" });
-    }s
+    }
     if (password.length < 6) {
       return res
         .status(400)
