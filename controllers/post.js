@@ -9,7 +9,7 @@ export const getPosts = async (req, res) => {
     return res.status(500).json({ message: error.message });
   }
 };
-
+s
 export const createPost = async (req, res) => {
   try {
     const newPosts = await PostSchema.create(req.body);
